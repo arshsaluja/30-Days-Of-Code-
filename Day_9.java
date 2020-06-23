@@ -9,9 +9,12 @@ import java.util.regex.*;
 public class Solution {
 
     // Complete the factorial function below.
-    static int factorial(int n) {
+    
+    
+    static int factorial(int n)
+    {
         
-return (n==1)?1:n*factorial(n-1);
+            return (n==1)?1:n*factorial(n-1);
     }
 
     private static final Scanner scanner = new Scanner(System.in);
