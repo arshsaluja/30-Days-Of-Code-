@@ -1,4 +1,3 @@
-//Complete this code or write your own from scratch
 import java.util.*;
 import java.io.*;
 
@@ -11,12 +10,12 @@ class Solution{
             String name = in.next();
             int phone = in.nextInt();
             in.nextLine();
-            // Write code here
+            
             mymap.put(name,phone);
         }
         while(in.hasNext()){
             String s = in.next();
-            // Write code here
+            
             if(mymap.get(s)==null)
             {
                 System.out.println("Not found");
