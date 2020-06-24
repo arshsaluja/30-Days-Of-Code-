@@ -21,17 +21,11 @@ public class Solution {
         {
             char ch=s.charAt(i);
             if(ch=='1')
-            {
-            c++;
-            }
+                c++;
             else
-            {
-            c=0;
-            }
+                c=0;
             if(max<c)
-            {
                 max=c;
-            }
             
         }
         System.out.println(max);
