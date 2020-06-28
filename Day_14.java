@@ -22,9 +22,7 @@ class Difference {
         {
             sum=Math.abs(elements[i]-elements[j]);
             if (sum>maximumDifference)
-            {
                 maximumDifference=sum;
-            }
         }
     }
 }
