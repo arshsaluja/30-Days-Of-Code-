@@ -14,5 +14,24 @@ public class Solution {
             a[a_i] = in.nextInt();
         }
         // Write Your Code Here
+        int num=0;
+        int temp=0;
+        for(int i=0;i<n;i++)
+        {
+            for(int j=0;j<n-1;j++)
+            {
+                if(a[j]>a[j+1])
+                {
+                    temp=a[j];
+                    a[j]=a[j+1];
+                    a[j+1]=temp;
+                    num++;
+                }
+            }
+        }
+        System.out.println("Array is sorted in "+num+" swaps.");
+        System.out.println("First Element: "+a[0]);
+        System.out.println("Last Element: "+a[n-1]);
+
     }
 }
