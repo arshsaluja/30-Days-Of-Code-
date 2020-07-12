@@ -6,7 +6,13 @@ interface AdvancedArithmetic{
 }
 class Calculator implements AdvancedArithmetic {
     public int divisorSum(int n) {
-        return 0;
+        int f=0;
+        for(int i=1;i<=n;i++)
+        {
+            if(n%i==0)
+            f=f+i;
+        }
+        return f;
     }
 }
 
