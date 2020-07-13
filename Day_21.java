@@ -9,7 +9,14 @@ class Printer <T> {
     **/
     
     // Write your code here
-    
+    public static <E> void printArray(E[] a)
+    {
+       for(E element : a)
+       {
+           System.out.printf("%s", element );
+           System.out.println("");
+       } 
+    }
 
 }
 
